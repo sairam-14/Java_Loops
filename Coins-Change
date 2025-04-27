@@ -1,0 +1,36 @@
+
+public class Coins_Change {
+
+	public static void main(String[] args) {
+
+		int fivecount = 0;
+		int twocount =0;
+		int onecount=0;
+		int n = 10;
+
+		while(n>=5) {
+			n=n-5;
+			fivecount++;
+		}
+		while(n>=2) {
+			n=n-2;
+			twocount++;
+			
+		}
+		while(n>=1) {
+			n=n-1;
+			onecount++;
+			
+		}
+		
+		System.out.println("Five rupees:"+fivecount);
+		System.out.println("Two rupees:"+twocount);
+		System.out.println("One rupees:"+onecount);
+		
+
+				
+
+			
+		
+	}
+}
